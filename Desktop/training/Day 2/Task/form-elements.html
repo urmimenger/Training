@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>Form-Elements</title>
+<style>
+table, td, th { border: 1px solid gray }
+td#1{text-align:center}
+td#2{text-align:center}
+</style>
+</head>
+<body>
+<a href="https://www.zeuslearning.com/"  target="_blank">
+
+<img src="zeuslearning.jpg" alt="HTML5 Icon" style="width:128px;height:128px;"></a>
+
+<form>
+<table>
+  <tr>
+    <td><b>First Name</b></td>
+    <td>
+      <input type="text" name="first_name" size="32" style="background-color: yellow">
+    </td>
+  </tr>
+  <tr>
+    <td><b>Last Name</b></td>
+    <td>
+      <input type="text" name="first_name" size="32" style="background-color: yellow">
+    </td>
+  </tr>
+  <tr>
+    <td><b>Gender</b></td>
+    <td>
+      <input type="radio" name="gender" value="male" checked> Male
+	  <input type="radio" name="gender" value="female"> Female
+    </td>
+  </tr>
+  <tr>
+    <td><b>Hobbies</b></td>
+    <td>
+      <input type="checkbox" name="hobbies" value="reading"> Reading<br/>
+	  <input type="checkbox" name="hobbies" value="singing"> Singing<br/>
+	  <input type="checkbox" name="hobbies" value="dancing"> Dancing<br/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Highest Education</b></td>
+    <td>
+      <select name="education">
+		<option value="bachelors">Bachelors</option>
+		<option value="masters">Masters</option>
+	  </select>
+    </td>
+  </tr>
+  <tr>
+    <td><b>SkillSet</b></td>
+    <td>
+      <select multiple name="skill_set">
+		<option value="cp">C++</option>
+		<option value="java">Java</option>
+		<option value="html">HTML</option>
+		<option value="cnet">C#.NET</option>
+	  </select>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Marrital Status</b></td>
+    <td>
+      <input type="radio" name="mstatus" value="married" checked> Married
+	  <input type="radio" name="mstatus" value="unmarried"> Unmarried
+    </td>
+  </tr>
+  <tr>
+    <td><b>Name of spouse</b></td>
+    <td>
+      <input type="text" name="spouse_name" size="20">
+    </td>
+  </tr>
+  <tr>
+    <td><b>Other Details</b></td>
+    <td>
+      <textarea name="details" rows="10" cols="30">
+		</textarea>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Password</b></td>
+    <td>
+      <input type="password" name="psw">
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center">
+	 <button type="reset" value="Reset">Reset</button>
+	 </td>
+    <td style="text-align:center">
+     <button type="submit" value="Submit">Save</button>
+    </td>
+  </tr>
+</table>
+</Form>
+<p>Copyright &copy; 2001-2005 <a href="mailto:urmi.menger@gmail.com?Subject=Hello%20again" target="_blank">Zeus Systems Pvt Ltd.</a><p>
+</body>
+</html>
